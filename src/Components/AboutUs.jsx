@@ -3,11 +3,11 @@ import SectionTitle from "./SectionTitle";
 
 const AboutUs = () => {
   return (
-    <section className="bg-white py-20 " id="about">
+    <section className="mx-auto max-w-7xl px-8 bg-white py-20 " id="about">
       <div className="align-element grid md:grid-cols-2 items-center gap-16">
         <img src={aboutSvg} className="w-full h-64" alt="" />
         <article>
-          <SectionTitle text="code and coffee" />
+          <SectionTitle text="about me" />
           <p className="text-slate-600 mt-8 leading-loose">
             Experienced developer with a strong focus on React JS and a
             background in quality assurance. Skilled in building robust web
