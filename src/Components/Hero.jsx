@@ -1,10 +1,11 @@
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
-import { IoLogoVercel } from "react-icons/io";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
+const url1 = "https://github.com/Harshita777?tab=repositories";
+const url2 = "https://www.linkedin.com/in/harshita-kumari-a9ab3b1b1/";
 const Hero = () => {
   return (
-    <div className=" bg-emerald-100 py-24">
+    <div className="bg-emerald-100 py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Harshita</h1>
@@ -15,14 +16,14 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="https://github.com/Harshita777?tab=repositories">
+            <a href={url1}>
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="https://www.linkedin.com/in/harshita-kumari-a9ab3b1b1/">
+            <a href={url2}>
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="">
-              <IoLogoVercel className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <a href="#">
+              <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </article>
