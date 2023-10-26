@@ -1,5 +1,5 @@
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, IoLogoVercel } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -14,14 +14,14 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a href="https://github.com/Harshita777?tab=repositories">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/harshita-kumari-a9ab3b1b1/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
-              <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            <a href="https://vercel.com/dashboard">
+              <IoLogoVercel className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </article>
