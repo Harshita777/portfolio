@@ -35,7 +35,7 @@ export const projects = [
     img: "https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg",
     url: "https://mixmaster.vercel.app/",
     github: "https://github.com/Harshita777?tab=repositories",
-    title: "first project",
+    title: "mix-master",
     text: "This project is about searching the different types of jucies according the user's desire.",
   },
   {
@@ -43,7 +43,7 @@ export const projects = [
     img: "https://images.ctfassets.net/s9a93u8uh0jj/50ovgAVhdUgH7sonYRaGyu/3d2808b0b66b18c56c598a3c21070957/reviews.png",
     url: "https://contentful-cms-henna.vercel.app/",
     github: "https://github.com/Harshita777?tab=repositories",
-    title: "second project",
+    title: "contentful-CMS",
     text: "This project uses the contentful CMS which stores the project in cloud and can be used in the project.",
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     img: "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTMzMjZ8MHwxfHNlYXJjaHw2fHxjYXR8ZW58MHx8fHwxNjk4MzMzOTIxfDA&ixlib=rb-4.0.3&q=80&w=1080",
     url: "https://unplash-fgiy.vercel.app/",
     github: "https://github.com/Harshita777?tab=repositories",
-    title: "third project",
+    title: "Unplash Images",
     text: "This project uses the API of Unplash images and displays the images according to the user.",
   },
 ];

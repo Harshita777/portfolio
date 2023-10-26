@@ -1,5 +1,6 @@
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin, IoLogoVercel } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { IoLogoVercel } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/harshita-kumari-a9ab3b1b1/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="https://vercel.com/dashboard">
+            <a href="">
               <IoLogoVercel className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
